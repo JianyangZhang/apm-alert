@@ -1,0 +1,119 @@
+#alert {
+	font-family: Microsoft YaHei, Arial, sans-serif;
+	margin-top: 25px;
+	font-size: 10px;
+    line-height: 10px;
+}
+
+#alert .edgy {
+	border-radius: 0px;
+}
+
+#alert th, #alert td {
+    border-color: white;
+}
+
+#alert .dark-gray-bg {
+	background-color: #C6C6C6;
+}
+
+#alert .gray-bg {
+	background-color: #E7E7E7;
+}
+
+#alert .no-right-border {
+	border-right: 0px;
+}
+
+#alert .no-left-border {
+	border-left: 0px;
+}
+
+#page-row {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#search-row {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+#alert .ui.table {
+	font-size: 10px;
+	line-height: 10px;
+}
+
+#alert .pagination.menu {
+    font-size: 9px;
+}
+
+#alert .negative td {
+    background: rgb(253,213,205);
+    color: black;
+}
+
+#alert .negative .indicator {
+    background: rgb(255,51,6);
+    color: black;
+}
+
+#alert .negative:hover td {
+    background: rgb(255,51,6);
+    color: black;
+}
+
+#alert .positive td {
+    background: rgb(231,231,231);
+    color: black;
+}
+
+#alert .positive .indicator {
+    background: rgb(0,203,68);
+    color: black;
+}
+
+#alert .positive:hover td {
+    background: rgb(0,203,68);
+    color: black;
+}
+
+#alert .warning td {
+    background: rgb(255, 235, 153);
+    color: black;
+}
+
+#alert .warning .indicator {
+    background: rgb(255, 219, 77);
+    color: black;
+}
+
+#alert .warning:hover td {
+    background: rgb(255, 219, 77);
+    color: black;
+}
+
+#alert td.positive {
+    background: rgb(0,203,68) !important;
+    color: black !important;
+}
+
+#alert td.negative {
+    background: rgb(255,51,6) !important;
+    color: black !important;
+}
+
+#alert td.warning {
+    background: rgb(255, 219, 77) !important;
+    color: black !important;
+}
+
+#alert td.online {
+    background: rgb(231,231,231) !important;
+    color: black !important;
+}
+
+#alert .inline {
+	display: inline-block;
+}
