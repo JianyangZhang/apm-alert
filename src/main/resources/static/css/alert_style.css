@@ -1,81 +1,93 @@
 #alert {
-	font-family: Microsoft YaHei, Arial, sans-serif;
-	margin-top: 25px;
-	font-size: 10px;
+    font-family: Microsoft YaHei, Arial, sans-serif;
+    margin-top: 25px;
+    font-size: 10px;
     line-height: 10px;
 }
 
 #alert .edgy {
-	border-radius: 0px;
+    border-radius: 0px;
 }
 
-#alert th, #alert td {
+#alert th,
+#alert td {
     border-color: white;
 }
 
 #alert .dark-gray-bg {
-	background-color: #C6C6C6;
+    background-color: #C6C6C6;
 }
 
 #alert .gray-bg {
-	background-color: #E7E7E7;
+    background-color: #E7E7E7;
 }
 
 #alert .no-right-border {
-	border-right: 0px;
+    border-right: 0px;
 }
 
 #alert .no-left-border {
-	border-left: 0px;
+    border-left: 0px;
 }
 
-#page-row {
-	text-align: center;
-	margin-top: 10px;
+#search_row {
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
 }
 
-#search-row {
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 10px;
+#filter_items {
+    position: absolute;
+    top: 6px;
+    left: 450px;
+}
+
+#pagination-row {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #alert .ui.table {
-	font-size: 10px;
-	line-height: 10px;
+    font-size: 10px;
+    line-height: 10px;
 }
 
 #alert .pagination.menu {
-    font-size: 9px;
+    font-size: 10px;
+}
+
+#alert .ui.checkbox {
+    font-size: 10px;
 }
 
 #alert .negative td {
-    background: rgb(253,213,205);
+    background: rgb(253, 213, 205);
     color: black;
 }
 
 #alert .negative .indicator {
-    background: rgb(255,51,6);
+    background: rgb(255, 51, 6);
     color: black;
 }
 
 #alert .negative:hover td {
-    background: rgb(255,51,6);
+    background: rgb(255, 51, 6);
     color: black;
 }
 
 #alert .positive td {
-    background: rgb(231,231,231);
+    background: rgb(231, 231, 231);
     color: black;
 }
 
 #alert .positive .indicator {
-    background: rgb(0,203,68);
+    background: rgb(0, 203, 68);
     color: black;
 }
 
 #alert .positive:hover td {
-    background: rgb(0,203,68);
+    background: rgb(0, 203, 68);
     color: black;
 }
 
@@ -95,12 +107,12 @@
 }
 
 #alert td.positive {
-    background: rgb(0,203,68) !important;
+    background: rgb(0, 203, 68) !important;
     color: black !important;
 }
 
 #alert td.negative {
-    background: rgb(255,51,6) !important;
+    background: rgb(255, 51, 6) !important;
     color: black !important;
 }
 
@@ -110,10 +122,28 @@
 }
 
 #alert td.online {
-    background: rgb(231,231,231) !important;
+    background: rgb(231, 231, 231) !important;
     color: black !important;
 }
 
 #alert .inline {
-	display: inline-block;
+    display: inline-block;
+}
+
+#alert_table_wrapper .ui.grid>.row {
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+#alert_table_filter input {
+    margin-left: 5px;
+}
+
+#alert_table_length .ui.selection.dropdown,
+#alert_table_length .ui.selection.dropdown .menu {
+    border-radius: 0px;
+}
+
+#alert_table_info {
+    margin-top: 5px;
 }

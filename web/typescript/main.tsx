@@ -1,11 +1,18 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { createStore } from "redux";
+import AlertApp from "./components/Alert";
+import DevTools from './devTools';
+import thunkMiddleware from 'redux-thunk';
+import { applyMiddleware, createStore, compose } from 'redux';
 import { Provider } from "react-redux";
 import { alertReducers } from "./reducers/alertReducers";
-import AlertApp from "./components/Alert";
 
-let store = createStore(alertReducers, (window as any).__REDUX_DEVTOOLS_EXTENSION__ && (window as any).__REDUX_DEVTOOLS_EXTENSION__())
+const enhancer = compose(
+    applyMiddleware(thunkMiddleware),
+    (window as any).__REDUX_DEVTOOLS_EXTENSION__ && (window as any).__REDUX_DEVTOOLS_EXTENSION__()
+);
+
+let store = createStore(alertReducers, enhancer)
 
 ReactDOM.render(
     <Provider store={store}>

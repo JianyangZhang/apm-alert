@@ -60,7 +60,7 @@ export const simulated_alerts = {
             id: "res8",
             name: "资源8",
             type: "硬件",
-            level: "离线",
+            level: "恢复",
             time: "2017-04-06 02:08:05",
             log: "此资源的告警内容"
         },
@@ -76,7 +76,7 @@ export const simulated_alerts = {
             id: "res10",
             name: "资源10",
             type: "软件",
-            level: "正常",
+            level: "一般",
             time: "2017-04-06 03:31:52",
             log: "此资源的告警内容"
         },
@@ -84,7 +84,7 @@ export const simulated_alerts = {
             id: "res11",
             name: "资源11",
             type: "硬件",
-            level: "正常",
+            level: "一般",
             time: "2017-04-07 19:19:43",
             log: "此资源的告警内容"
         },
@@ -92,7 +92,7 @@ export const simulated_alerts = {
             id: "res12",
             name: "资源12",
             type: "软件",
-            level: "正常",
+            level: "一般",
             time: "2017-04-07 11:11:22",
             log: "此资源的告警内容"
         },
@@ -116,7 +116,7 @@ export const simulated_alerts = {
             id: "res15",
             name: "资源15",
             type: "硬件",
-            level: "正常",
+            level: "一般",
             time: "2017-04-02 20:09:30",
             log: "此资源的告警内容"
         },
@@ -124,7 +124,7 @@ export const simulated_alerts = {
             id: "res16",
             name: "资源16",
             type: "硬件",
-            level: "离线",
+            level: "一般",
             time: "2017-04-02 20:08:08",
             log: "此资源的告警内容"
         },
@@ -132,7 +132,7 @@ export const simulated_alerts = {
             id: "res17",
             name: "资源17",
             type: "软件",
-            level: "正常",
+            level: "一般",
             time: "2017-04-03 14:33:53",
             log: "此资源的告警内容"
         },
@@ -148,7 +148,7 @@ export const simulated_alerts = {
             id: "res19",
             name: "资源19",
             type: "硬件",
-            level: "正常",
+            level: "一般",
             time: "2017-04-05 14:50:10",
             log: "此资源的告警内容"
         },
@@ -164,7 +164,7 @@ export const simulated_alerts = {
             id: "res21",
             name: "资源21",
             type: "软件",
-            level: "正常",
+            level: "一般",
             time: "2017-04-09 22:41:10",
             log: "此资源的告警内容"
         },
@@ -180,8 +180,120 @@ export const simulated_alerts = {
             id: "res23",
             name: "资源23",
             type: "硬件",
-            level: "离线",
+            level: "恢复",
             time: "2017-04-02 21:09:18",
+            log: "此资源的告警内容"
+        },
+        "res24": {
+            id: "res24",
+            name: "资源24",
+            type: "软件",
+            level: "一般",
+            time: "2017-03-30 09:09:23",
+            log: "此资源的告警内容"
+        },
+        "res25": {
+            id: "res25",
+            name: "资源25",
+            type: "硬件",
+            level: "恢复",
+            time: "2017-04-01 21:08:22",
+            log: "此资源的告警内容"
+        },
+        "res26": {
+            id: "res26",
+            name: "资源26",
+            type: "软件",
+            level: "严重",
+            time: "2017-04-04 23:24:09",
+            log: "此资源的告警内容"
+        },
+        "res27": {
+            id: "res27",
+            name: "资源27",
+            type: "硬件",
+            level: "严重",
+            time: "2017-04-05 06:08:09",
+            log: "此资源的告警内容"
+        },
+        "res28": {
+            id: "res28",
+            name: "资源28",
+            type: "硬件",
+            level: "恢复",
+            time: "2017-04-05 06:12:11",
+            log: "此资源的告警内容"
+        },
+        "res29": {
+            id: "res29",
+            name: "资源29",
+            type: "软件",
+            level: "一般",
+            time: "2017-03-30 11:09:18",
+            log: "此资源的告警内容"
+        },
+        "res30": {
+            id: "res30",
+            name: "资源30",
+            type: "硬件",
+            level: "严重",
+            time: "2017-04-08 14:14:39",
+            log: "此资源的告警内容"
+        },
+        "res31": {
+            id: "res31",
+            name: "资源31",
+            type: "硬件",
+            level: "恢复",
+            time: "2017-04-08 13:19:14",
+            log: "此资源的告警内容"
+        },
+        "res32": {
+            id: "res32",
+            name: "资源32",
+            type: "软件",
+            level: "一般",
+            time: "2017-04-03 12:34:39",
+            log: "此资源的告警内容"
+        },
+        "res33": {
+            id: "res33",
+            name: "资源33",
+            type: "硬件",
+            level: "恢复",
+            time: "2017-04-02 11:12:23",
+            log: "此资源的告警内容"
+        },
+        "res34": {
+            id: "res34",
+            name: "资源34",
+            type: "软件",
+            level: "一般",
+            time: "2017-04-02 10:02:37",
+            log: "此资源的告警内容"
+        },
+        "res35": {
+            id: "res35",
+            name: "资源35",
+            type: "硬件",
+            level: "严重",
+            time: "2017-04-02 01:50:50",
+            log: "此资源的告警内容"
+        },
+        "res36": {
+            id: "res36",
+            name: "资源36",
+            type: "硬件",
+            level: "恢复",
+            time: "2017-04-02 22:12:28",
+            log: "此资源的告警内容"
+        },
+        "res37": {
+            id: "res37",
+            name: "资源37",
+            type: "硬件",
+            level: "恢复",
+            time: "2017-04-07 21:43:35",
             log: "此资源的告警内容"
         },
     },

@@ -33,7 +33,7 @@ export class StatisticsPanel extends React.Component<any, any> {
                                 <i className="attention icon"></i>严重:</td>
                             <td className="negative no-left-border">{this.props.data.load.high}</td>
                             <td className="warning no-right-border">
-                                <i className="attention icon"></i>普通:</td>
+                                <i className="attention icon"></i>一般:</td>
                             <td className="warning no-left-border">{this.props.data.load.normal}</td>
                             <td className="positive no-right-border">恢复:</td>
                             <td className="positive no-left-border">{this.props.data.load.recover}</td>
